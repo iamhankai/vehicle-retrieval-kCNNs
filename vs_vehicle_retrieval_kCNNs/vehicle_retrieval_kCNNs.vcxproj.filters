@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\TinyXML\tinystr.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TinyXML\tinyxml.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="src\caffe_feature.h" />
+    <ClInclude Include="src\common_tool.h" />
+    <ClInclude Include="src\vehicle_retrieval_kCNNs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\TinyXML\tinystr.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TinyXML\tinyxml.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TinyXML\tinyxmlerror.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TinyXML\tinyxmlparser.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vehicle_retrieval_kCNNs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{ebfe0b54-325b-40d4-af68-ce8c9cddf62c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

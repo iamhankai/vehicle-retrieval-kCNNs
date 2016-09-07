@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='gb2312'?>
+<Message Version="1.0">
+  <Info evaluateType="6" mediaFile="VehicleRetrieval"/>
+  <Items name="ref">
+    <Item imageName="000002"/>
+    <Item imageName="000007"/>
+    <Item imageName="000233"/>
+    <Item imageName="000234"/>
+    <Item imageName="000235"/>
+    <Item imageName="000290"/>
+    <Item imageName="000291"/>
+    <Item imageName="016127"/>
+    <Item imageName="016145"/>
+    <Item imageName="016147"/>
+    <Item imageName="016148"/>
+    <Item imageName="016170"/>
+  </Items>
+  <Items name="query">
+    <Item imageName="016119"/>
+    <Item imageName="000292"/>
+    <Item imageName="000006"/>
+  </Items>
+</Message>
