@@ -1,5 +1,6 @@
 # Vehicle Retrieval
 Multi-CNN feature ensemble method. 
+
 1. We have trained 4 GoogLeNet with different task, e.g, triplet loss (full image), vehicle_id softmax loss (full image), vehicle_id softmax loss (upper half image) and model_id softmax loss (lower half image). 
 2. In inference stage, we concat the `pool5/7x7_s1` layer feature from the 4 GoogLeNet together. Finally, return the `k` nearest vehicles.
 
@@ -25,6 +26,7 @@ The Dataset used in Vehicle Retrieval task:
 
 # 车辆精确检索
 第三届全国研究生智慧城市技术与创意设计大赛车辆精确检索任务第一名，总决赛特等奖。
+
 数据集：[PKU VehicleID](http://www.pkuml.org/research/pku-vehicleid.html)
 
 ## 方法
