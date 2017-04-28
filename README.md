@@ -38,7 +38,7 @@ CPU，Windows系统，Caffe，VS2013
 ## 使用
 1. 下载、配置、编译Caffe官方windows版
 2. 下载本工程
-3. 将文件夹`vs_vehicle_retrieval_kCNNs`复制到Caffe/w`caffe/windows`目录下，并在vs中把`vehicle_retrieval_kCNNs.vcxproj`项目添加到Caffe解决方案下，编译生成可执行文件。
+3. 将文件夹`vs_vehicle_retrieval_kCNNs`复制到`caffe/windows`目录下，并在vs中把`vehicle_retrieval_kCNNs.vcxproj`项目添加到Caffe解决方案下，编译生成可执行文件。
 4. 修改`run.bat`中的路径，运行它，即可得到实验结果。
 
 
