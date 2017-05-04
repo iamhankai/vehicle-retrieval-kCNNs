@@ -19,7 +19,7 @@ The Dataset used in Vehicle Retrieval task:
 ## Usage
 1. Windows Caffe setup. Details in [Windows Caffe readme](https://github.com/BVLC/caffe/tree/windows).
 2. Download or git clone the current project.
-3. Copy or move `vs_vehicle_retrieval_kCNNs` folder into `caffe/windows` and add `vehicle_retrieval_kCNNs.vcxproj` project into Caffe solution in VS2013, compile it.
+3. Copy or move `vs_vehicle_retrieval_kCNNs` folder into `caffe/windows` and add `vehicle_retrieval_kCNNs.vcxproj` project into Caffe solution in VS2013, compile it with Release mode.
 4. Modify `run.bat`, mainly set the path. Finally, run `run.bat` in cmd, you'll get a `xml` result file.
 
 ---
@@ -38,7 +38,7 @@ CPU，Windows系统，Caffe，VS2013
 ## 使用
 1. 下载、配置、编译Caffe官方windows版
 2. 下载本工程
-3. 将文件夹`vs_vehicle_retrieval_kCNNs`复制到`caffe/windows`目录下，并在vs中把`vehicle_retrieval_kCNNs.vcxproj`项目添加到Caffe解决方案下，编译生成可执行文件。
+3. 将文件夹`vs_vehicle_retrieval_kCNNs`复制到`caffe/windows`目录下，并在vs中把`vehicle_retrieval_kCNNs.vcxproj`项目添加到Caffe解决方案下，使用Release模式编译生成可执行文件。
 4. 修改`run.bat`中的路径，运行它，即可得到实验结果。
 
 
