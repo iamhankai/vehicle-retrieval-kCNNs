@@ -17,7 +17,7 @@ The Dataset used in Vehicle Retrieval task:
 - Compiler: VS2013
 
 ## Usage
-1. Windows Caffe (use [this version](https://github.com/BVLC/caffe/tree/714d0acad8c66d64ddf7b83b9a239f7efc017894)) setup. Details in [Windows Caffe readme](https://github.com/BVLC/caffe/tree/windows).
+1. Windows Caffe (use [this version](https://github.com/BVLC/caffe/tree/714d0acad8c66d64ddf7b83b9a239f7efc017894)) setup.
 2. Download or git clone the current project.
 3. Copy or move `vs_vehicle_retrieval_kCNNs` folder into `caffe/windows` and add `vehicle_retrieval_kCNNs.vcxproj` project into Caffe solution in VS2013, compile it with Release mode.
 4. Modify `run.bat`, mainly set the path. Finally, run `run.bat` in cmd, you'll get a `xml` result file.
